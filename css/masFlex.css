@@ -1,0 +1,58 @@
+.flexContainer:last-child{margin-top:2em;}
+body{margin: 0; padding: 0;}
+div{height: 50px; width: 50px;}
+div:nth-child(1){background-color: red; width: 80px; height: 80px;}
+div:nth-child(2) {background-color: blue;}
+div:nth-child(3) {background-color: green;}
+div:nth-child(4) {background-color: yellow;}
+div:nth-child(5) {background-color: pink;}
+div:nth-child(6) {background-color: black;}
+div:nth-child(7) {background-color: orange;}
+div:nth-child(8) {background-color: silver;}
+
+
+/*FLEX GROW Y FLEX SHRINK*/
+.flexContainer{
+
+    display: flex;
+}
+
+.flexItem{
+    flex-grow: 1;
+}
+
+/*
+.flexContainer { HORIZONTAL
+    display: flex; /*pasa de vertical a horizontal alineado en la parte superior de la pantalla*/
+    /*justify-content: center; centra todo en la pantalla horizontal
+    justify-content: space-between; /*distribuye a lo ancho sin margen inicial y final
+    align-items: center; /*alinea verticalmente al centro
+    
+}
+*/
+
+/*
+
+.flexContainer{
+    height: 800px; /*al definir altura puede poner espacio entre ellos
+    display: flex; /*pasa de vertical a horizontal alineado en la parte superior de la pantalla
+    /*justify-content: center; centra todo en la pantalla horizontal
+    justify-content: space-around; /*distribuye a lo ancho sin margen inicial y final
+    align-items: center; /*alinea verticalmente al centro
+    flex-direction: column; /*ponerlos en columna alineados al centro
+    
+}
+
+
+.flexContainer{
+ display:flex;   
+}
+
+.flexItem{
+    width: 200px;
+}
+
+.flexItem:first-child {
+    flex-shrink: 2;
+    
+  }

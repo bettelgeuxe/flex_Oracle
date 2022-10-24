@@ -53,6 +53,7 @@
 .contenidoPrincipal-cursos{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .contenidoPrincipal-cursos-link{
